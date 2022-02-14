@@ -1,0 +1,12 @@
+[submodule "submodules/audio_engine"]
+	path = submodules/audio_engine
+	url = git@github.com:objective-audio/audio_engine.git
+[submodule "submodules/cpp_utils"]
+	path = submodules/cpp_utils
+	url = git@github.com:objective-audio/cpp_utils.git
+[submodule "submodules/objc_utils"]
+	path = submodules/objc_utils
+	url = git@github.com:objective-audio/objc_utils.git
+[submodule "submodules/observing"]
+	path = submodules/observing
+	url = git@github.com:objective-audio/observing.git
