@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B65369C427BA645400C652BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B65369C327BA645400C652BD /* AppDelegate.m */; };
-		B65369C727BA645400C652BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B65369C627BA645400C652BD /* ViewController.m */; };
+		B65369C427BA645400C652BD /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = B65369C327BA645400C652BD /* AppDelegate.mm */; };
 		B65369C927BA645400C652BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B65369C827BA645400C652BD /* Assets.xcassets */; };
 		B65369CC27BA645400C652BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65369CA27BA645400C652BD /* Main.storyboard */; };
 		B65369CE27BA645400C652BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B65369CD27BA645400C652BD /* main.m */; };
@@ -20,6 +19,7 @@
 		B65369DF27BA656500C652BD /* objc_utils.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B65369D827BA656500C652BD /* objc_utils.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B65369E027BA656500C652BD /* observing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B65369D927BA656500C652BD /* observing.framework */; };
 		B65369E127BA656500C652BD /* observing.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B65369D927BA656500C652BD /* observing.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B65369E627BA9BBB00C652BD /* UniformTypeIdentifiers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B65369E527BA9BBB00C652BD /* UniformTypeIdentifiers.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,9 +42,7 @@
 /* Begin PBXFileReference section */
 		B65369BF27BA645400C652BD /* dr10_level_matching.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dr10_level_matching.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B65369C227BA645400C652BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B65369C327BA645400C652BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B65369C527BA645400C652BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B65369C627BA645400C652BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B65369C327BA645400C652BD /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		B65369C827BA645400C652BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B65369CB27BA645400C652BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B65369CD27BA645400C652BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -53,6 +51,7 @@
 		B65369D727BA656500C652BD /* cpp_utils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = cpp_utils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B65369D827BA656500C652BD /* objc_utils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = objc_utils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B65369D927BA656500C652BD /* observing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = observing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B65369E527BA9BBB00C652BD /* UniformTypeIdentifiers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UniformTypeIdentifiers.framework; path = System/Library/Frameworks/UniformTypeIdentifiers.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +63,7 @@
 				B65369DE27BA656500C652BD /* objc_utils.framework in Frameworks */,
 				B65369E027BA656500C652BD /* observing.framework in Frameworks */,
 				B65369DA27BA656500C652BD /* audio.framework in Frameworks */,
+				B65369E627BA9BBB00C652BD /* UniformTypeIdentifiers.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,9 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				B65369C227BA645400C652BD /* AppDelegate.h */,
-				B65369C327BA645400C652BD /* AppDelegate.m */,
-				B65369C527BA645400C652BD /* ViewController.h */,
-				B65369C627BA645400C652BD /* ViewController.m */,
+				B65369C327BA645400C652BD /* AppDelegate.mm */,
 				B65369C827BA645400C652BD /* Assets.xcassets */,
 				B65369CA27BA645400C652BD /* Main.storyboard */,
 				B65369CD27BA645400C652BD /* main.m */,
@@ -105,6 +103,7 @@
 		B65369D527BA656500C652BD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B65369E527BA9BBB00C652BD /* UniformTypeIdentifiers.framework */,
 				B65369D627BA656500C652BD /* audio.framework */,
 				B65369D727BA656500C652BD /* cpp_utils.framework */,
 				B65369D827BA656500C652BD /* objc_utils.framework */,
@@ -204,9 +203,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B65369C727BA645400C652BD /* ViewController.m in Sources */,
 				B65369CE27BA645400C652BD /* main.m in Sources */,
-				B65369C427BA645400C652BD /* AppDelegate.m in Sources */,
+				B65369C427BA645400C652BD /* AppDelegate.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
